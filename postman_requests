@@ -1,0 +1,9 @@
+curl --location --request POST 'https://dev-417850.okta.com/oauth2/default/v1/token?grant_type=client_credentials&scope=custom_scope' \
+--header 'accept: application/json' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Basic MG9hMzFhcDB1ZDNWSktTNHc0eDY6dnJQRmpLMER2elhnc3RSWW0zQXpjUTBhU1U4N0JOMTRxdTMwblBVUg=='
+
+curl --location --request POST 'https://dev-417850.okta.com/oauth2/default/v1/introspect?client_id=0oa31ap0ud3VJKS4w4x6&client_secret=vrPFjK0DvzXgstRYm3AzcQ0aSU87BN14qu30nPUR' \
+--header 'accept: application/json' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: Bearer eyJraWQiOiJVaVFrdkpTQXlEd3F6WXVQYnJYbjNrcTJSZVc4b0VINFdIVTZtcTR3cjVzIiwiYWxnIjoiUlMyNTYifQ.eyJ2ZXIiOjEsImp0aSI6IkFULjdabnlJU3RDX21mYXBLTmZwcTdUd24ySjJqUHU1T205am1ld0xEVmxzRm8iLCJpc3MiOiJodHRwczovL2Rldi00MTc4NTAub2t0YS5jb20vb2F1dGgyL2RlZmF1bHQiLCJhdWQiOiJhcGk6Ly9kZWZhdWx0IiwiaWF0IjoxNTgzNDc3MjY5LCJleHAiOjE1ODM0ODA4NjksImNpZCI6IjBvYTMxYXAwdWQzVkpLUzR3NHg2Iiwic2NwIjpbImN1c3RvbV9zY29wZSJdLCJzdWIiOiIwb2EzMWFwMHVkM1ZKS1M0dzR4NiJ9.Ewl34fPOWHm1ApE3Hp4A-6xBB2zVB3p7hS0pO-uy1dQzlXiMl18I8v807wS7R42MSpJVchrZZHwoHr56Vclm9itkVpbUXTMnw3pz1ATlA8Kh8E-2yjBgDEQq4ltigS0AP35uS7wVEzATpEa4mbZCSpNrv5ETh_SRbqK9d05xAstdgmmqLziu7rptyKRsuQLWRWRio3njPk05PhK7jY0oOosJDQ4vmhUCZUDAWMUvmgfZI-8kGJAkYnW1Fpc_ZZKqsabzN3RKh-yDfDKS4Q2r9AwvYmz6Y0iRDmJP40Qq8Uc-JDgLTGnebvTZbVcZuE3ZssU98TgGMB5Fid51tdtxQQ'
